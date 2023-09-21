@@ -11,18 +11,17 @@
            ▄▀  █▀▀ █   █▀▄
            ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
  /*--------------IMPORTS------------- */
-@import url(https://schnensch0.github.io/zelk/main.css);
-@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+@import url(https://raw.githubusercontent.com/CheaterTim/zelk/main.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/red.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/discord.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/blue.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/green.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/gray.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/orange.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/purple.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/red.css); */
+/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/discord.css); */
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
