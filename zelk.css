@@ -1,18 +1,18 @@
-/*         ▀▀█ █▀▀ █   █ █
-           ▄▀  █▀▀ █   █▀▄
-           ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
-/*--------------IMPORTS------------- */
+/* ==UserStyle==
+@name         Updated Zelk
+@namespace    github.com/CheaterTim/zelk
+@version      1.0.0
+@license      mit
+@preprocessor stylus
+@description an updated fork of the zelk theme
+@var select color "Color Scheme" ["blue", "green", "gray", "orange", "purple", "red", "discord"]
+==/UserStyle== */
+
+
 @import url(https://raw.githubusercontent.com/CheaterTim/zelk/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
-/*--------------COLORS---------------*/
-/*------remove / and * to apply------*/
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/blue.css); */
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/green.css); */
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/gray.css); */
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/orange.css); */
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/purple.css); */
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/red.css); */
-/* @import url(https://raw.githubusercontent.com/CheaterTim/zelk/colors/discord.css); */
+@import url({'https://raw.githubusercontent.com/CheaterTim/zelk/colors/' + color + '.css'});
+
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
