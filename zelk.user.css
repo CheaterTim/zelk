@@ -9,9 +9,9 @@
 ==/UserStyle== */
 
 
-@import url(https://raw.githubusercontent.com/CheaterTim/zelk/main.css);
+@import url(https://raw.githubusercontent.com/CheaterTim/zelk/main/main.css);
 @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
-@import url({'https://raw.githubusercontent.com/CheaterTim/zelk/colors/' + color + '.css'});
+@import url({'https://raw.githubusercontent.com/CheaterTim/zelk/main/colors/' + color + '.css'});
 
 /*-------------VARIABLES-------------*/
 :root {
