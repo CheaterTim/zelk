@@ -1939,3 +1939,8 @@ body:not(.powercord) .panels-3wFtMD::after {
   translate: 0 -2.5px;
 }
 /* alignment fixes end */
+
+.searchBar-3TnChZ {
+  /* just the conversation search bar being off. a different alignment issue */
+  translate: 2.5px 2.5px;
+}
