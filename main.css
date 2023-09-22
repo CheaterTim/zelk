@@ -729,7 +729,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   translate: -7.5px;
 }
 .root-8LYsGj {
-  width: fit-content;
+  width: fit-content !important;
 }
 .headerTop-3GPUSF {
   display: flex;
