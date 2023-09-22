@@ -1771,7 +1771,7 @@ div[style*="height: 16px;"] + div[style="height: 16px;"] {
 .iconLive-nQxzyp {
   color: var(--text-normal) !important;
 }
-.wrapper-NhbLHG.modeSelected-3DmyhH :is(.iconLive-nQxzyp, .name-28HaxV, .iconContainer-21RCa3) {
+.wrapper-NhbLHG.modeSelected-3DmyhH :is(.iconLive-nQxzyp, .name-28HaxV, .iconContainer-21RCa3 *) {
   color: var(--interactive-selected) !important;
 }
 .connected-2MF1ew {
