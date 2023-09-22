@@ -726,7 +726,10 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
   top: 16px;
 }
 .avatar-3QF_VA {
-  top: -156px;
+  translate: -7.5px;
+}
+.root-8LYsGj {
+  width: fit-content;
 }
 .headerTop-3GPUSF {
   display: flex;

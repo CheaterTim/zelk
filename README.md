@@ -4,7 +4,7 @@
 <h1>Zelk (fork)</h1>
 <p>this is an updated fork of <a href="https://github.com/schnensch0/zelk">zelk</a></p>
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/CheaterTim/zelk/main/zelk.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://cheatertim.github.io/zelk/zelk.user.css)
 
 
 ### CREDITS
