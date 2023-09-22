@@ -1919,3 +1919,8 @@ body:not(.powercord) .panels-3wFtMD::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
+
+.selected-1sf9UK {
+  background-color: var(--background-modifier-selected) !important;
+  color: var(--background-tertiary) !important;
+}
