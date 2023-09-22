@@ -1925,6 +1925,7 @@ body:not(.powercord) .panels-3wFtMD::after {
   color: var(--background-tertiary) !important;
 }
 
+/* alignment fixes */
 .privateChannels-oVe7HL .scroller-WSmht3 {
   margin-top: 5px;
 }
@@ -1932,3 +1933,9 @@ body:not(.powercord) .panels-3wFtMD::after {
 .container-1NXEtd {
   padding-top: 5px !important;
 }
+
+.container-1NXEtd header {
+  /* move header back up because we push it down with the 1NXEtd padding */
+  translate: 0 -2.5px;
+}
+/* alignment fixes end */
