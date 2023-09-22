@@ -1,21 +1,18 @@
 /* ==UserStyle==
 @name         Updated Zelk
 @namespace    github.com/CheaterTim/zelk
-@version      1.0.1
+@version      1.0.2
 @license      mit
-@preprocessor stylus
+@preprocessor less
 @description an updated fork of the zelk theme
 @var select color "Color Scheme" ["blue", "green", "gray", "orange", "purple", "red", "discord"]
 ==/UserStyle== */
 
 
-
-
 @-moz-document domain("discord.com") {
-  @var colorUrl 'https://raw.githubusercontent.com/CheaterTim/zelk/main/colors/' + color + '.css';
+  @import url("https://raw.githubusercontent.com/CheaterTim/zelk/main/colors/@{color}.css";
   @import url(https://raw.githubusercontent.com/CheaterTim/zelk/main/main.css);
   @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
-  @import url(var(colorUrl));
 
   /*-------------VARIABLES-------------*/
   :root {
