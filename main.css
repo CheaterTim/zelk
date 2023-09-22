@@ -1920,9 +1920,14 @@ body:not(.powercord) .panels-3wFtMD::after {
   background: var(--background-modifier-active) !important;
 }
 
-.topPill-2vcLsa .selected-1sf9UK {
+.topPill-2vcLsa .selected-1sf9UK, .side-1lrxIh .selected-1sf9UK {
   background-color: var(--background-modifier-selected) !important;
   color: var(--background-tertiary) !important;
+}
+
+/* settings icons */
+.side-1lrxIh .selected-1sf9UK::before {
+  background: var(--background-tertiary) !important;   
 }
 
 /* alignment fixes */
