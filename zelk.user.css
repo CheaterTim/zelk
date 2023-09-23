@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Updated Zelk
 @namespace    github.com/CheaterTim/zelk
-@version      1.0.5
+@version      1.0.6
 @license      mit
 @preprocessor less
 @description an updated fork of the zelk theme
@@ -12,7 +12,6 @@
 @-moz-document domain("discord.com") {
   @import url("https://cheatertim.github.io/zelk/colors/@{color}.css");
   @import url(https://cheatertim.github.io/zelk/main.css);
-  @import url(https://crearts-community.github.io/Settings-Icons/clients/powercord.css);
   @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css");
   /*-------------VARIABLES-------------*/
   :root {
