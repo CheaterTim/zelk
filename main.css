@@ -814,24 +814,6 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 .userInfoSection-2u2hir:nth-child(2) {
   padding-bottom: 16px;
 }
-.root-g14mjS[data-user-id="652801938374656013"] .badgeList-2aoHPw::after {
-  background-image: url(https://cdn.discordapp.com/attachments/733994170162610178/854785472404520991/badge.png);
-  margin: 1px;
-  width: 20px;
-  height: 20px;
-  background-size: contain;
-  content: "";
-}
-.userPopout-2j1gM4[data-user-id="652801938374656013"] .profileBadges-2pItdR::after {
-  background-image: url(https://cdn.discordapp.com/attachments/733994170162610178/854785472404520991/badge.png);
-  margin: 1px;
-  width: 17px;
-  height: 17px;
-  background-size: contain;
-  content: "";
-  position: relative;
-  top: 1px;
-}
 .applicationInstallButton-taCWKH {
   margin-right: 16px;
   width: -webkit-fill-available;
@@ -1948,4 +1930,8 @@ body:not(.powercord) .panels-3wFtMD::after {
 .searchBar-3TnChZ {
   /* just the conversation search bar being off. a different alignment issue */
   translate: 2.5px 2.5px;
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  color: var(--background-tertiary) !important;
 }
