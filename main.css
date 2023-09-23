@@ -1939,3 +1939,7 @@ body:not(.powercord) .panels-3wFtMD::after {
 .buttonIcon-2Zsrs2 {
   color: var(--text-normal);
 }
+
+.withTagAsButton-OsgQ9L:hover .title-338goq {
+  color: var(--background-tertiary) !important;
+}
