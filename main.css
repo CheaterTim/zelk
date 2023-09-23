@@ -1935,3 +1935,7 @@ body:not(.powercord) .panels-3wFtMD::after {
 .lookFilled-1H2Jvj.colorBrand-2M3O3N {
   color: var(--background-tertiary) !important;
 }
+
+.buttonIcon-2Zsrs2 {
+  color: var(--text-normal);
+}
