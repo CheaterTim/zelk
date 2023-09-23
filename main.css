@@ -15,6 +15,7 @@
   --deprecated-text-input-bg: var(--background-secondary);
   --deprecated-text-input-border-disabled: var(--background-secondary);
   --text-brand: var(--brand-experiment);
+  --interactive-active: var(--bg-tertirary) !important;
 }
 .tabBody-2dgbAs, .chat-2ZfjoI, .container-1NXEtd, .container-1oAagU, .privateChannels-oVe7HL, .homeWrapperNormal-bu1BS6 {
   background-color: var(--background-tertiary);
