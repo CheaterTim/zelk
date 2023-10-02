@@ -1,31 +1,41 @@
 /* ==UserStyle==
 @name         Updated Zelk
 @namespace    github.com/CheaterTim/zelk
-@version      1.0.6
+@version      1.0.7
 @license      mit
 @preprocessor less
 @description an updated fork of the zelk theme
 @var select color "Color Scheme" ["blue", "green", "gray", "orange", "purple", "red", "discord"]
+@var checkbox scrollbars "Show Scrollbars" 1
+@var checkbox settingsIcons "Setting Icons" 1
+@var checkbox useInter "Font" 1
 ==/UserStyle== */
 
 
 @-moz-document domain("discord.com") {
   @import url("https://cheatertim.github.io/zelk/colors/@{color}.css");
   @import url(https://cheatertim.github.io/zelk/main.css);
-  @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css");
+  & when (@settingsIcons = 1) {
+    @import url("https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css");
+  }
+
   /*-------------VARIABLES-------------*/
   :root {
     /* set to 'unset' to show */
     --scrollbars: none;
+    & when (@scrollbars = 1) {
+      --scrollbars: unset;
+    }
     /* user notes */
     --notes: none;
     /* direct message box */
     --message: none;
     /* set to '4px solid' to show */
     --embed-color: none;
-    /* set to 'Inter', sans-serif !important to use Inter font*/
-    --font-primary: "Inter", "gg sans", sans-serif;
-    --font-display: "Inter", "gg sans", sans-serif !important;
+    & when (@useInter = 1) {
+      --font-primary: "Inter", "gg sans", sans-serif;
+      --font-display: "Inter", "gg sans", sans-serif !important;
+    }
     --border-radius-1: 10px;
     --border-radius-2: 8px;
   }
