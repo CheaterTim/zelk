@@ -4,6 +4,8 @@
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://cheatertim.github.io/zelk/zelk.user.css)
 
+#### for users using a discord client mod
+I do not use such mods and cannot test against them, you can try to use the untested `zelk.theme.css`
 
 ### CREDITS
 [The Original zelk](https://github.com/schnensch0/zelk) by schnensch0
