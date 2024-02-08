@@ -1,5 +1,8 @@
 <div align=center>
-<h1>:warning: BROKEN BY LATEST DISCORD UPDATE</h1>
+  
+# :warning: BROKEN BY LATEST DISCORD UPDATE, ARCHIVED
+> ARCHIVED: I now use [amoled-cord](https://github.com/LuckFire/amoled-cord) and am not willing to fix this theme any longer.
+
 <h1>Zelk (fork)</h1>
 <p>this is an updated fork of <a href="https://github.com/schnensch0/zelk">zelk</a></p>
 
